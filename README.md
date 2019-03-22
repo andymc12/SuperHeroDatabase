@@ -5,7 +5,8 @@ This project is intended to show how easy it is to develop a GraphQL-based appli
 
 The project itself will generate a WAR file that can act as an online database for comic book super heroes.
 The WAR file must be deployed in a container that implements the (still under development) MicroProfile GraphQL specification.
-Because the spec is still evolving, the only containers that can be used to implement the spec are prototypes.
+Because the spec is still evolving, this project cannot be built using Maven - since the APIs are not yet available on the Maven servers.
+Likewise, the only containers that can be used to implement the spec are prototypes.
 One such prototype, based on [Open Liberty](http://openliberty.io) is available here:
 
 https://drive.google.com/open?id=137Pd86OfIuiyRbHXUZn59IqHiTFKUS82

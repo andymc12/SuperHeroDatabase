@@ -4,6 +4,9 @@ MP GraphQL Sample
 This project is intended to show how easy it is to develop a GraphQL-based application using the MicroProfile GraphQL APIs.
 
 The project itself will generate a WAR file that can act as an online database for comic book super heroes.
+Users can query information on super heroes, filter by location, by team or super power, etc. They can also create new 
+heroes or update them - adding them to new teams, etc.
+
 The WAR file must be deployed in a container that implements the (still under development) MicroProfile GraphQL specification.
 Because the spec is still evolving, this project cannot be built using Maven - since the APIs are not yet available on the Maven servers.
 Likewise, the only containers that can be used to implement the spec are prototypes.

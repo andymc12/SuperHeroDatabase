@@ -1,5 +1,6 @@
 # SuperHeroDatabase
 MP GraphQL Sample
+![alt text](https://github.com/andymc12/SuperHeroDatabase/blob/master/img/marvel_coloring_team.jpg?raw=true "Super Hero Database")
 
 This project is intended to show how easy it is to develop a GraphQL-based application using the MicroProfile GraphQL APIs.
 
